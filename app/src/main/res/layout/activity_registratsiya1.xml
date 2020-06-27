@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Registratsiya.Registratsiya1Activity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:src="@drawable/back_icon"></ImageView>
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:src="@drawable/daftar_rasm"></ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:theme="@style/Qarzdaftar" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/sahitya"
+            android:text="@string/Royhatdan_otish"
+            android:textColor="#1091C9"
+            android:textSize="45sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/layout1">
+
+        </TextView>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="@string/familya"
+                android:theme="@style/royhat" />
+
+            <EditText
+                android:layout_width="287dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="60dp"
+                android:background="@drawable/kok_fon_registratsiya" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="@string/ism"
+                android:theme="@style/royhat" />
+
+            <EditText
+                android:layout_width="287dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="60dp"
+                android:background="@drawable/kok_fon_registratsiya" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="@string/pasport_Seria"
+                android:theme="@style/royhat" />
+
+            <EditText
+                android:layout_width="287dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="60dp"
+                android:background="@drawable/kok_fon_registratsiya" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="@string/Tugilgan_sana"
+                android:theme="@style/royhat" />
+
+            <DatePicker
+                android:layout_width="287dp"
+                android:layout_height="430dp"
+                android:layout_marginLeft="60dp"
+                android:background="@drawable/kok_fon_registratsiya"
+                android:inputType="datetime" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="@string/Email"
+                android:theme="@style/royhat" />
+
+            <EditText
+                android:layout_width="287dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="60dp"
+                android:background="@drawable/kok_fon_registratsiya"
+                android:inputType="textEmailAddress" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="290dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/kok_liniya"
+            android:onClick="next"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+            <TextView
+                android:layout_width="125dp"
+                android:layout_height="57dp"
+                android:layout_marginLeft="70dp"
+                android:text="@string/Keyingi"
+                android:textColor="#00AEF9"
+                android:textSize="35sp">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/next_icon" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</ScrollView>

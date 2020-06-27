@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Qarzdaftar_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/sahitya"
+        android:text="@string/Qarzdaftar"
+        android:textColor="#00AEF9"
+        android:textSize="62sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/daftar_rasm"
+        android:layout_width="142dp"
+        android:layout_height="121dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/daftar_rasm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Qarzdaftar_text" />
+
+    <Button
+        android:id="@+id/royhatdan_otish_button"
+        android:layout_width="290dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/botton_oq"
+        android:fontFamily="@font/sahitya"
+        android:onClick="Royhatdan_otish"
+        android:text="@string/Royhatdan_otish"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/avval_reg_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/sahitya"
+        android:onClick="logIn"
+        android:text="@string/avval_registratsiya"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/royhatdan_otish_button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

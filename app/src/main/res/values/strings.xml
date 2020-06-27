@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">Qarz daftar</string>
+    <string name="Qarzdaftar">Qarz Daftar</string>
+    <string name="Royhatdan_otish">Ro`yhatdan o`tish</string>
+    <string name="avval_registratsiya">Avval ro`yhatdan o`tganmisiz?</string>
+    <string name="familya">Familyangiz: *</string>
+    <string name="ism">Ismingiz: *</string>
+    <string name="pasport_Seria">Passport Seriasi: *</string>
+    <string name="Tugilgan_sana">Tug`ilgan sana: *</string>
+    <string name="Email">Email: *</string>
+    <string name="Keyingi">Keyingi</string>
+    <string name="hudud">Yashash hududingiz: *</string>
+    <string name="ijtimoiy_holat">Ijtimoiy holat: *</string>
+    <string name="parol_kiriting">Parol kiriting: *</string>
+    <string name="parolni_tasdiqlang">Parolni tasdinglang: *</string>
+    <string name="tel_nomer">Nomeringizni kiriting: *</string>
+    <string name="kod_yuborish">Xizmat xafvsizligini ta\'minlash maqsadida sizga kod yuboriladi</string>
+    <string name="vaqt">Vaqt: 1:59</string>
+    <string name="kod">KOD:</string>
+    <string name="Tugallash">Tugallash</string>
+    <string name="log_in">Tizimga kirish</string>
+    <string name="parolni_unutish">Parolingizni unutdingizmi?</string>
+    <string name="kirish">Kirish</string>
+    <string name="parolni_tiklash">Parolni tiklash</string>
+    <string name="yangi_parol_kiriting">Yangi parol kiriting: *</string>
+
+</resources>

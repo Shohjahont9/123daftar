@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorPrimaryDark">#00AEF9</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Qarzdaftar" >
+        <item name="android:text">@string/Qarzdaftar</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:textColor">#00AEF9</item>
+        <item name="fontFamily">@font/sahitya</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="royhat">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#1878A1</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="fontFamily">@font/sahitya</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+</resources>
