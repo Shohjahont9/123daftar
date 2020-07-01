@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ayiriboshlash_bottom"
+        android:title="@string/ayiriboshlash"
+        android:icon="@drawable/ayiriboshlash_icon"/>
+    <item
+        android:id="@+id/suhbatlar_bottom"
+        android:title="@string/suhbatlar"
+        android:icon="@drawable/suhbatlar_icon"/>
+
+    <item
+        android:id="@+id/qarzlar_bottom"
+        android:title="@string/qarzlar"
+        android:icon="@drawable/qarzlar_icon"/>
+
+    <item
+        android:id="@+id/savdo_sotiq_bottom"
+        android:title="@string/savdo_sotiq"
+        android:icon="@drawable/savdo_sotiq_icon"/>
+
+
+    <item
+        android:id="@+id/profilim_bottom"
+        android:title="@string/profilim"
+        android:icon="@drawable/profilim_icon"/>
+
+</menu>
