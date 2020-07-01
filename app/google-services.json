@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "936829548427",
+    "firebase_url": "https://financemanager-5522f.firebaseio.com",
+    "project_id": "financemanager-5522f",
+    "storage_bucket": "financemanager-5522f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936829548427:android:0c172dbfbc0a66d12ba18e",
+        "android_client_info": {
+          "package_name": "Qarzdaftar.qarzdaftar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936829548427-l5evb1jbkd2ciim9e4etq63vdmoovq47.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "Qarzdaftar.qarzdaftar",
+            "certificate_hash": "5d920a673b0f2ceb685faa7bf4adfe2867748c3c"
+          }
+        },
+        {
+          "client_id": "936829548427-l77fl39fabehg7njm6epcc36r37j0fkn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDElbAGkbglZqYgKOjVbXKWcoHyCgdIdTE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936829548427-l77fl39fabehg7njm6epcc36r37j0fkn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
