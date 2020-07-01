@@ -3,8 +3,7 @@ package Qarzdaftar.qarzdaftar.Asosiy;
 import Qarzdaftar.qarzdaftar.Asosiy.Ayiriboshlash.ayiriboshlash;
 import Qarzdaftar.qarzdaftar.Asosiy.Profilim.profilim_fragment;
 import Qarzdaftar.qarzdaftar.Asosiy.Qarzlar.qarzlar_fragment;
-import Qarzdaftar.qarzdaftar.Asosiy.Savdo_sotiqlar.sotib_olish;
-import Qarzdaftar.qarzdaftar.Asosiy.Qarzlar.qarz_berish_fragment;
+import Qarzdaftar.qarzdaftar.Asosiy.Savdo_sotiqlar.savdo_sotiq;
 import Qarzdaftar.qarzdaftar.Asosiy.Suhbatlar.suhbatlar_fragment;
 import Qarzdaftar.qarzdaftar.R;
 import androidx.annotation.NonNull;
@@ -112,7 +111,7 @@ public class AsosiyActivity extends AppCompatActivity    implements NavigationVi
                     fragment = new qarzlar_fragment();
                     break;
                 case R.id.savdo_sotiq_bottom:
-                    fragment = new sotib_olish();
+                    fragment = new savdo_sotiq();
                     break;
                 case R.id.profilim_bottom:
                     fragment = new profilim_fragment();

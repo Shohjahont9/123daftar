@@ -142,5 +142,11 @@
     <string name="qarz_berish">Qarz berish</string>
     <string name="qarz_olish">Qarz olish</string>
     <string name="qarzlar_tarixi">Qarzlar tarixi</string>
+    <string name="Balans">Balans:</string>
+    <string name="umumiy_qarz">Umumiy qarzlar:</string>
+    <string name="sizdan_qarzlar">Sizdan qarzlar:</string>
+    <string name="umumiy_hisob">Umumiy hisob:</string>
+    <string name="parol_qoyish">Parol qo`yish:</string>
+    <string name="tizim_parolini_ozgartirish">Tizim parolini o`zgartirish:</string>
 
 </resources>
