@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single"
+        android:visible="true">
+
+
+        <item
+            android:id="@+id/qarzlar_menu"
+            android:icon="@drawable/qarzlar_icon"
+            android:title="@string/qarzlar" />
+
+        <item
+            android:id="@+id/ayiriboshlash_menu"
+            android:icon="@drawable/ayiriboshlash_icon"
+            android:title="@string/ayiriboshlash" />
+
+        <item
+            android:id="@+id/savdo_sotiq_menu"
+            android:icon="@drawable/savdo_sotiq_icon"
+            android:title="@string/savdo_sotiq" />
+
+        <item
+            android:id="@+id/suhbatlar_menu"
+            android:icon="@drawable/suhbatlar_icon"
+            android:title="@string/suhbatlar" />
+
+        <item
+            android:id="@+id/tanlanganlar_menu"
+            android:icon="@drawable/tanlanganlar_icon"
+            android:title="@string/tanlanganlar" />
+
+    </group>
+
+    <item android:title="@string/profilim">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/profilim_menu"
+                    android:icon="@drawable/profilim_icon"
+                    android:title="@string/profilim" />
+                <item
+                    android:id="@+id/log_out_menu"
+                    android:icon="@drawable/log_out_icon"
+                    android:title="@string/log_out" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/aloqa">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/share"
+                    android:title="@string/dostlarga_ulashish"
+                    android:icon="@drawable/share_icon"/>
+
+                <item
+                    android:id="@+id/biz_haqimizda"
+                    android:title="@string/biz_haqimizda"
+                    android:icon="@drawable/about_us_icon"/>
+            </group>
+        </menu>
+    </item>
+
+
+</menu>
