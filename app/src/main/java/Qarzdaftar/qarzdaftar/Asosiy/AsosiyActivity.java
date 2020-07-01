@@ -1,47 +1,33 @@
 package Qarzdaftar.qarzdaftar.Asosiy;
 
-import Qarzdaftar.qarzdaftar.Asosiy.Ayiriboshlash.narsa_olish_fragment;
+import Qarzdaftar.qarzdaftar.Asosiy.Ayiriboshlash.ayiriboshlash;
 import Qarzdaftar.qarzdaftar.Asosiy.Profilim.profilim_fragment;
+import Qarzdaftar.qarzdaftar.Asosiy.Qarzlar.qarzlar_fragment;
 import Qarzdaftar.qarzdaftar.Asosiy.Savdo_sotiqlar.sotib_olish;
 import Qarzdaftar.qarzdaftar.Asosiy.Qarzlar.qarz_berish_fragment;
 import Qarzdaftar.qarzdaftar.Asosiy.Suhbatlar.suhbatlar_fragment;
 import Qarzdaftar.qarzdaftar.R;
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
-import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
-import androidx.viewpager.widget.PagerAdapter;
-import androidx.viewpager.widget.ViewPager;
 
-import android.content.Context;
-import android.content.Intent;
-import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.ImageButton;
-import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
-import com.google.android.material.tabs.TabItem;
-import com.google.android.material.tabs.TabLayout;
-
-import java.util.Objects;
 
 public class AsosiyActivity extends AppCompatActivity    implements NavigationView.OnNavigationItemSelectedListener  {
 
     private DrawerLayout drawerLayout;
     private Toolbar toolbar;
-    ActionBarDrawerToggle mDrawerToggle;
     private NavigationView navigationView;
 
 
@@ -77,7 +63,7 @@ public class AsosiyActivity extends AppCompatActivity    implements NavigationVi
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
         bottomNavigationView.setOnNavigationItemSelectedListener(bottomNavigationMethod);
 
-        getSupportFragmentManager().beginTransaction().replace(R.id.frame_container, new narsa_olish_fragment()).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.frame_container, new ayiriboshlash()).commit();
 
     }
 
@@ -117,13 +103,13 @@ public class AsosiyActivity extends AppCompatActivity    implements NavigationVi
             Fragment fragment = null;
             switch (menuItem.getItemId()) {
                 case R.id.ayiriboshlash_bottom:
-                    fragment = new narsa_olish_fragment();
+                    fragment = new ayiriboshlash();
                     break;
                 case R.id.suhbatlar_bottom:
                     fragment = new suhbatlar_fragment();
                     break;
                 case R.id.qarzlar_bottom:
-                    fragment = new qarz_berish_fragment();
+                    fragment = new qarzlar_fragment();
                     break;
                 case R.id.savdo_sotiq_bottom:
                     fragment = new sotib_olish();

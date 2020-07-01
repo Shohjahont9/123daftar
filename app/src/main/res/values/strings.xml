@@ -136,5 +136,11 @@
     <string name="log_out">Profildan chiqish</string>
     <string name="tanlanganlar">Saralanganlar</string>
     <string name="aloqa">Aloqa</string>
+    <string name="narsa_berish">Narsa berish</string>
+    <string name="narsa_olish">Narsa olish</string>
+    <string name="ayiriboshlash_tarixi">Ayiriboshlash tarixi</string>
+    <string name="qarz_berish">Qarz berish</string>
+    <string name="qarz_olish">Qarz olish</string>
+    <string name="qarzlar_tarixi">Qarzlar tarixi</string>
 
 </resources>

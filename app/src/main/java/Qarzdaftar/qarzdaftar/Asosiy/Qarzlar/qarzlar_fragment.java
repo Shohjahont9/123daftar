@@ -1,4 +1,4 @@
-package Qarzdaftar.qarzdaftar.Asosiy.Ayiriboshlash;
+package Qarzdaftar.qarzdaftar.Asosiy.Qarzlar;
 
 import android.os.Bundle;
 
@@ -12,10 +12,10 @@ import Qarzdaftar.qarzdaftar.R;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link ayiriboshlash_tarixi_fragment#newInstance} factory method to
+ * Use the {@link qarzlar_fragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class ayiriboshlash_tarixi_fragment extends Fragment {
+public class qarzlar_fragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -26,7 +26,7 @@ public class ayiriboshlash_tarixi_fragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public ayiriboshlash_tarixi_fragment() {
+    public qarzlar_fragment() {
         // Required empty public constructor
     }
 
@@ -36,11 +36,11 @@ public class ayiriboshlash_tarixi_fragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment ayiriboshlash_tarixi_fragment.
+     * @return A new instance of fragment qarzlar_fragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static ayiriboshlash_tarixi_fragment newInstance(String param1, String param2) {
-        ayiriboshlash_tarixi_fragment fragment = new ayiriboshlash_tarixi_fragment();
+    public static qarzlar_fragment newInstance(String param1, String param2) {
+        qarzlar_fragment fragment = new qarzlar_fragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -61,6 +61,6 @@ public class ayiriboshlash_tarixi_fragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_ayiriboshlash_tarixi_fragment, container, false);
+        return inflater.inflate(R.layout.fragment_qarzlar_fragment, container, false);
     }
 }

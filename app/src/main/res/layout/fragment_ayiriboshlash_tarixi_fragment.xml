@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Asosiy.Ayiriboshlash.narsa_berish_fragment">
+    tools:context=".Asosiy.Ayiriboshlash.ayiriboshlash_tarixi_fragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
